@@ -1,13 +1,104 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'sans-serif';
+}
+.homeTitle{
+	font-size: 60px;
+}
+.bg-custom-2 {
+background-image: linear-gradient(90deg, #0326B6, #0A53D7);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wallpaper{
+	position: absolute;
+	width: 100%;
+	
+	z-index: -10;
+}
+.btn-outline-light{
+	width: 200px;
+
+
+}
+.foothead{
+	background-color: #0A54D8;
+}
+.page-footer a{
+	color: white;
+}
+.card{
+	transition: .3s;
+}
+.card:hover {
+	box-shadow: 5px 5px 18px #bbb;
+transform: scale(1.1);
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.promise{
+	width: 18rem;
+	transition: .3s;
+}
+.promise img{
+	transition: .3s;
+}
+.promise:hover{
+	transform: scale(1.1);
+	background: #0069D9;
+	color: white;
+}
+.promise:hover img{
+filter: brightness(0) invert(1);
+}
+.card-img-fluid{
+	width: 80px;
+	height: 80px;
+	display: flex;
+}
+.homecard img {
+    object-fit:cover;
+    top: 0;
+    left: 0;
+   height: 150px;
+}
+.swiper-container {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .wallpaper{
+  	background-image: linear-gradient(90deg, #0326B6, #0A53D7);
+  	height: 680px;
+  }
+
 }
