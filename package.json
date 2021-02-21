@@ -30,7 +30,7 @@
     "react-scripts": "4.0.1",
     "swiper": "^6.4.12",
     "web-vitals": "^0.2.4",
-    "gh": "^2.8.6",
+    "gh-pages": "^3.1.0",
   },
   "scripts": {
     "predeploy": "npm run build",
