@@ -1,6 +1,6 @@
 {
   "name": "newapp",
-  "homepage": "https://smakel01.github.io/AudonixVision",
+  "homepage": "https://sachin70082.github.io/AudonixVision",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,7 +34,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "deploy": "gh-pages -b master -d build",
     "start": "node server.js",
     "build": "react-scripts build",
