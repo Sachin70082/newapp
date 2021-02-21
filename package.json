@@ -19,7 +19,6 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "font-awesome": "^4.7.0",
-    "gh-pages": "^2.0.1",
     "jquery": "^3.5.1",
     "mdbootstrap": "^4.19.2",
     "mongoose": "^5.11.15",
@@ -34,7 +33,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r <https://github.com/Sachin70082/AudonixVision>",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "server": "nodemon server.js",
